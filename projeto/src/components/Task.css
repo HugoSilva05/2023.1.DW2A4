@@ -13,9 +13,11 @@
   cursor: pointer;
 }
 
-/* .buttons-container{
-  
-} */
+.buttons-container{
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
 
 .remove-task-button, .see-task-details-button{
   background-color: #444;
