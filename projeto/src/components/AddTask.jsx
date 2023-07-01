@@ -10,13 +10,16 @@ const AddTask = ({handleTaskAddition}) => {
   }
 
   const handleAddTaskClick = () => {
-    handleTaskAddition(inputData)
-    setInputData('')
+    if(!inputData) window.alert('Campo não pode estar vazio')
+    else {
+      handleTaskAddition(inputData)
+      setInputData('')
+    }
   }
 
   return (
     <div className='add-task-container'>
-      <input type="text" className='add-task-input' onChange={handleInputChange} value={inputData}/>
+      <input type="text"  className='add-task-input' onChange={handleInputChange} value={inputData}/>
       <div className="add-task-button-container">
         <Button onClick={handleAddTaskClick}>Adicionar</Button>
       </div>
