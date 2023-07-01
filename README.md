@@ -5,12 +5,10 @@ Aluno Hugo V. Matos da Silva  <hugo.m@aluno.ifsp.edu.br>  \
 Prof. Quirino         <luiz.quirino@ifsp.edu.br>
 
 ## Descrição das etapas implementadas :
-- etapa 1 - 0%
-- etapa 2 - 0%
-- etapa 3 - 0%
+- etapa 1 - 100%
+- etapa 2 - 100%
+- etapa 3 - 100%
 - ...
 
 ## Alterações realizadas frente ao modelo de referência apresentado:
-- alteração xyz;
-- alteração xpto;
-- ...
+- alteração: Verificação de dado vazio no input;
